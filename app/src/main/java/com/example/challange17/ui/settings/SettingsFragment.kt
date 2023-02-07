@@ -1,11 +1,10 @@
-package com.example.challange17
+package com.example.challange17.ui.settings
 
-import MySharedPref
+import com.example.challange17.model.MySharedPref
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import com.example.challange17.R
 
 import com.example.challange17.databinding.FragmentSettingsBinding
 

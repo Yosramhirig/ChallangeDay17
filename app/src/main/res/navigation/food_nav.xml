@@ -7,7 +7,16 @@
 
     <fragment
         android:id="@+id/foodFragment"
-        android:name="com.example.challange17.FoodFragment"
+        android:name="com.example.challange17.ui.food.FoodFragment"
         android:label="fragment_food"
-        tools:layout="@layout/fragment_food" />
+        tools:layout="@layout/fragment_food" >
+        <action
+            android:id="@+id/action_foodFragment_to_descriptionFragment"
+            app:destination="@id/descriptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.example.challange17.ui.description.DescriptionFragment"
+        android:label="fragment_description"
+        tools:layout="@layout/fragment_description" />
 </navigation>
